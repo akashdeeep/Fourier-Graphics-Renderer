@@ -192,7 +192,7 @@ def main():
     #     angular_frequencies=[0, 1, -1, 2, -2],
     # )
 
-    svg_file = "github-mark-white.svg"
+    svg_file = "Pi-symbol.svg"
 
     points = read_svg.get_points(2500, svg_file)
 
@@ -206,7 +206,7 @@ def main():
     figure = Figure(
         coefficients=coefficients,
         angular_frequencies=angular_frequencies,
-        angular_frequency_multiplier=0.01,
+        angular_frequency_multiplier=conf.speed,
     )
 
     running = True

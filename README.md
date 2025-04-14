@@ -2,6 +2,8 @@
 
 This project visualizes 2D graphics using Fourier transforms. It animates a series of rotating vectors (arrows) that combine to draw a specified shape or pattern. The input for the shapes is derived from an SVG file, and the output showcases the beauty of Fourier-based rendering.
 
+> **Inspired by:** [3Blue1Brown's mesmerizing video on Fourier series](https://www.youtube.com/watch?v=r6sGWTCMz2k&t=998s), which illustrates how rotating vectors can represent complex drawings through epicycles.
+
 ---
 
 ## Demo
